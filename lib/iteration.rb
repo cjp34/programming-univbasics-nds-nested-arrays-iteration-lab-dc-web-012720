@@ -29,8 +29,8 @@ def total_even_pairs(src)
   first = 0
   second = 1
   while row_index < src.count do
-    binding.pry((src[row_index][first] + src[row_index][second])%2) == 0
-    if 
+    binding.pry
+    if ((src[row_index][first] + src[row_index][second])%2) == 0
       total += (src[row_index][first] + src[row_index][second])
     end
     row_index += 1
